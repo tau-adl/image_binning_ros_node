@@ -25,3 +25,16 @@ Ouput topic name: **/camera/image_raw**
 
 Simple download this repository into your catkin workspace, under /src folder and run catkin_make or equivalent build command used for your workspace.
 
+```
+git clone https://github.com/tau-adl/image_binning_ros_node.git
+cd ..
+catkin_make
+```
+
+## Usage
+
+Run with rosrun command, don't forget to source your shell before:
+```
+source ./devel/setup.bash
+rosrun binning binning_node
+``` 
